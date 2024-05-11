@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Chatbot</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="sr-root">
+      <div class="sr-main">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/products">Products</a></li>
+              <li><a href="/chatbot">Chatbot</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1>AI Chatbot</h1>
+          <div id="chatbot-container">
+            <div id="chat-history"></div>
+            <div id="user-input">
+              <input type="text" id="user-message" placeholder="Type your message..." />
+              <button id="send-button">Send</button>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <p>&copy; 2023 AI Product Website. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+    <script src="js/chatbot.js"></script>
+  </body>
+</html>
